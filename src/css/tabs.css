@@ -1,0 +1,203 @@
+body
+{
+ background-color:white;
+ margin:0px auto;
+ padding:0px;
+ font-family: "Montserrat", sans-serif;
+ height:2000px;
+}
+h1
+{
+ text-align:center;
+ font-family: "Montserrat", sans-serif;
+ font-size:35px;
+ margin-top:60px;
+ color:#BEF781;
+}
+h1 p {
+ text-align:center;
+  font-family: "Montserrat", sans-serif;
+ margin:0px;
+ font-size:30px;
+ text-decoration:underline;
+ color:#e6efff;
+}
+#main_content {
+ margin-top:100px;
+ font-family: "Montserrat", sans-serif;
+ width:1000px;
+ margin-left:220px;
+}
+#main_content li {
+ display:inline;
+ font-family: "Montserrat", sans-serif;
+ list-style-type:none;
+ background-color:#688A08;
+ padding:10px;
+ border-radius:5px 5px 0px 0px;
+ color:#292A0A;
+ font-weight:bold;
+ cursor:pointer;
+}
+#main_content li.notselected {
+ background-color:#F38F1F;
+ color:#292A0A;
+}
+#main_content li.selected {
+ background-color:#e6efff;
+ color:#292A0A;
+}
+#main_content .hidden_desc {
+ display:none;
+ visibility:hidden;
+}
+#main_content #page_content {
+ background-color:#e6efff;
+ font-family: "Montserrat", sans-serif;
+ padding:10px;
+ margin-top:7px;
+ border-radius:0px 5px 5px 5px;
+ color:#2E2E2E;
+ line-height: 1.6em;
+ word-spacing:4px;
+}
+
+#page_content #second{
+    position: relative;
+   font-family: "Montserrat", sans-serif;
+    padding:10px;
+    border-radius: 5px;
+    width: 98%;
+    height: 50%;
+    margin: auto;
+    margin-top: 1%;
+    background:#99ccff;
+}
+
+
+#page_content #third{
+    position: relative;
+   font-family: "Montserrat", sans-serif;
+    padding:10px;
+    border-radius: 5px;
+    width: 98%;
+    height: 50%;
+    margin: auto;
+    margin-top: 1%;
+    background:#99ccff;
+}
+
+#page_content #fourth{
+    position: relative;
+    padding:10px;
+    border-radius: 5px;
+    width: 98%;
+    height: 50%;
+    margin: auto;
+    margin-top: 1%;
+    background:#99ccff;
+}
+
+#page_content #fifth{
+    position: relative;
+    padding:10px;
+    border-radius: 5px;
+    width: 98%;
+    height: 50%;
+    margin: auto;
+    margin-top: 1%;
+    background:#99ccff;
+}
+
+#page_content #sixth{
+    position: relative;
+    padding:10px;
+    border-radius: 5px;
+    width: 98%;
+    height: 50%;
+    margin: auto;
+    margin-top: 1%;
+    background:#99ccff;
+}
+
+#page_content #seventh{
+    position: relative;
+    padding:10px;
+    border-radius: 5px;
+    width: 98%;
+    height: 50%;
+    margin: auto;
+    margin-top: 1%;
+    background:#99ccff;
+}
+
+#page_content #eighth{
+    position: relative;
+    padding:10px;
+    border-radius: 5px;
+    width: 98%;
+    height: 50%;
+    margin: auto;
+    margin-top: 1%;
+    background:#99ccff;
+}
+
+#page_content #ninth{
+    position: relative;
+    padding:10px;
+    border-radius: 5px;
+    width: 98%;
+    height: 50%;
+    margin: auto;
+    margin-top: 1%;
+    background:#99ccff;
+}
+
+#page_content #tenth{
+    position: relative;
+    padding:10px;
+    border-radius: 5px;
+    width: 98%;
+    height: 50%;
+    margin: auto;
+    margin-top: 1%;
+    background:#99ccff;
+}
+
+#page_content #eleventh{
+    position: relative;
+    padding:10px;
+    border-radius: 5px;
+    width: 98%;
+    height: 50%;
+    margin: auto;
+    margin-top: 1%;
+    background:#99ccff;
+}
+
+#page_content #twelve{
+    position: relative;
+    padding:10px;
+    border-radius: 5px;
+    width: 98%;
+    height: 50%;
+    margin: auto;
+    margin-top: 1%;
+    background:#99ccff;
+}
+
+input {
+  width:200px;
+  padding:20px;
+  margin:15px 15px;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+input span {
+  width:2px;
+  padding:20px;
+  margin:15px 15px;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}

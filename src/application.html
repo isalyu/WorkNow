@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/tabs.css" />
+    <title>WorkNow | Application</title>
+
+    <script>
+      function change_tab(id) {
+         document.getElementById("page_content").innerHTML=document.getElementById(id+"_desc").innerHTML;
+         document.getElementById("page1").className="notselected";
+         document.getElementById("page2").className="notselected";
+         document.getElementById("page3").className="notselected";
+         document.getElementById(id).className="selected";
+      }
+    </script>
+</head>
+
+<body>
+<nav>
+  <div class="heading">
+    <a href="landing.html" style="text-decoration:none">
+      <div class="logo">
+        <img height=50 style="position:relative; left:-120px; top:10px;" src="assets/Workday-Emblem.png" alt="">
+      </div>
+      <h4 class="logo-text" style="position:relative; left:0px; top:-20px;">WorkNow</h4>
+    </a>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="landing.html">Home</a></li>
+    <li><a class="active" href="application.html">Applications</a></li>
+    <li><a href="personal.html">Personal</a></li>
+    <li><a href="account.html">Account</a></li>
+  </ul>
+</nav>
+
+<div id = "main_content">
+  <li class="selected" id="page1" onclick="change_tab(this.id);">In Progress</li>
+  <li class="notselected" id="page2" onclick="change_tab(this.id);">Submitted</li>
+  <li class="notselected" id="page3" onclick="change_tab(this.id);">Saved</li>
+
+  <div class='hidden_desc' id="page1_desc">
+    <h2>In Progress</h2>
+
+    <div id="secondCurrent">
+      <strong>Hudson River Trading</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-New York
+      <img width=35 height=15 style="position:relative; left:690px; top:10px;" src="assets/arrow.png" alt="">
+    </div>
+
+    <div id="thirdCurrent">
+      <strong>Citadel</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-Chicago
+      <img width=35 height=15 style="position:relative; left:705px; top:10px;" src="assets/arrow.png" alt="">
+    </div>
+
+    <div id="fourthCurrent">
+      <strong>Lockheed Martin</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-Fort Worth
+      <img width=35 height=15 style="position:relative; left:680px; top:10px;" src="assets/arrow.png" alt="">
+    </div>
+
+    <div id="fifthCurrent">
+      <strong>BlackRock</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-New York
+      <img width=35 height=15 style="position:relative; left:690px; top:10px;" src="assets/arrow.png" alt="">
+    </div>
+
+    <div id="sixthCurrent">
+      <strong>United</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-Chicago
+      <img width=35 height=15 style="position:relative; left:705px; top:10px;" src="assets/arrow.png" alt="">
+    </div>
+  </div>
+
+  <div class='hidden_desc' id="page2_desc">
+    <h2>Submitted</h2>
+
+    <div id="secondSubmitted">
+      <strong>Amazon</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-Seattle
+      <span style="float:right;color:#008512;"><strong>Accepted</strong></span><br>
+    </div>
+
+    <div id="thirdSubmitted">
+      <strong>Microsoft</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-Redmond
+      <span style="float:right;color:#008512;"><strong>Accepted</strong></span><br>
+    </div>
+
+    <div id="fourthSubmitted">
+      <strong>Google</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-Mountain View
+      <span style="float:right;color:#008512;"><strong>Accepted</strong></span><br>
+    </div>
+
+    <div id="fifthSubmitted">
+      <strong>Jane Street</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-New York
+      <span style="float:right;color:#FFD301;"><strong>Pending</strong></span><br>
+    </div>
+
+    <div id="sixthSubmitted">
+      <strong>Roblox</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-San Mateo
+      <span style="float:right;color:#FFD301;"><strong>Pending</strong></span><br>
+    </div>
+
+    <div id="seventhSubmitted">
+      <strong>Meta</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-Menlo Park
+      <span style="float:right;color:#FFD301;"><strong>Pending</strong></span><br>
+    </div>
+
+    <div id="eighthSubmitted">
+      <strong>Chick-Fil-A</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-Atlanta
+      <span style="float:right;color:#f71505;"><strong>Rejected</strong></span><br>
+    </div>
+
+    <div id="ninthSubmitted">
+      <strong>Bank of America</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-Atlanta
+      <span style="float:right;color:#f71505;"><strong>Rejected</strong></span><br>
+    </div>
+
+    <div id="tenthSubmitted">
+      <strong>Tesla</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-Palo Alto
+      <span style="float:right;color:#f71505;"><strong>Rejected</strong></span><br>
+    </div>
+
+  </div>
+
+  <div class='hidden_desc' id="page3_desc">
+    <h2>Saved</h2>
+
+    <div id="secondSaved">
+      <strong>Akuna Capital</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-Boston
+      <span style="float:right;color:#FFFFFF;"><strong><u>Start Application</u></strong></span><br>
+    </div>
+
+    <div id="thirdSaved">
+      <strong>Goldman Sachs</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-Global
+      <span style="float:right;color:#FFFFFF;"><strong><u>Start Application</u></strong></span><br>
+    </div>
+
+    <div id="fourthSaved">
+      <strong>Morgan Stanley</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-New York
+      <span style="float:right;color:#FFFFFF;"><strong><u>Start Application</u></strong></span><br>
+    </div>
+
+    <div id="fifthSaved">
+      <strong>Cisco</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-San Francisco
+      <span style="float:right;color:#FFFFFF;"><strong><u>Start Application</u></strong></span><br>
+    </div>
+
+    <div id="sixthSaved">
+      <strong>Pixar Animation</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-Emeryville
+      <span style="float:right;color:#FFFFFF;"><strong><u>Start Application</u></strong></span><br>
+    </div>
+
+    <div id="seventhSaved">
+      <strong>Qualtrics</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-Provo
+      <span style="float:right;color:#FFFFFF;"><strong><u>Start Application</u></strong></span><br>
+    </div>
+
+    <div id="eighthSaved">
+      <strong>Duolingo</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-Pittsburgh
+      <span style="float:right;color:#FFFFFF;"><strong><u>Start Application</u></strong></span><br>
+    </div>
+
+    <div id="ninthSaved">
+      <strong>Netflix</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-Los Gatos
+      <span style="float:right;color:#FFFFFF;"><strong><u>Start Application</u></strong></span><br>
+    </div>
+
+    <div id="tenthSaved">
+      <strong>ZipRecruiter</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-Santa Monica
+      <span style="float:right;color:#FFFFFF;"><strong><u>Start Application</u></strong></span><br>
+    </div>
+
+    <div id="eleventhSaved">
+      <strong>CarMax</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-Richmond
+      <span style="float:right;color:#FFFFFF;"><strong><u>Start Application</u></strong></span><br>
+    </div>
+
+    <div id="twelveSaved">
+      <strong>Expedia Group</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-Seattle
+      <span style="float:right;color:#FFFFFF;"><strong><u>Start Application</u></strong></span><br>
+    </div>
+  </div>
+
+  <div id="page_content">
+    <h2>In Progress</h2>
+    <div id="second">
+      <strong>Hudson River Trading</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-New York
+      <img width=35 height=15 style="position:relative; left:690px; top:10px;" src="assets/arrow.png" alt="">
+    </div>
+
+    <div id="third">
+      <strong>Citadel</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-Chicago
+      <img width=35 height=15 style="position:relative; left:705px; top:10px;" src="assets/arrow.png" alt="">
+    </div>
+
+    <div id="fourth">
+      <strong>Lockheed Martin</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-Fort Worth
+      <img width=35 height=15 style="position:relative; left:680px; top:10px;" src="assets/arrow.png" alt="">
+    </div>
+
+    <div id="fifth">
+      <strong>BlackRock</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-New York
+      <img width=35 height=15 style="position:relative; left:690px; top:10px;" src="assets/arrow.png" alt="">
+    </div>
+
+    <div id="sixth">
+      <strong>United</strong>
+      <span style="float:right;">Software Engineering Intern</span><br>
+      Summer 2023-Chicago
+      <img width=35 height=15 style="position:relative; left:705px; top:10px;" src="assets/arrow.png" alt="">
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

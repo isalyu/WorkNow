@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WorkNow | Account</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+          rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+</head>
+
+<body onload = "myFunction()">
+
+<nav>
+    <div class = "heading">
+        <a href = "landing.html" style = "text-decoration:none">
+            <div class = "logo">
+                <img height = 50 style = "position: relative; left: -120px; top: 10px"
+                     src = "assets/Workday-Emblem.png" alt = "">
+            </div>
+            <h4 class = "logo-text" style = "position: relative; left: 0px; top: -20px;"> WorkNow </h4>
+        </a>
+    </div>
+    <ul class="nav-links">
+        <li><a href="landing.html">Home</a></li>
+        <li><a href="application.html">Applications</a></li>
+        <li><a href="personal.html">Personal</a></li>
+        <li><a class="active" href="account.html">Account</a></li>
+    </ul>
+</nav>
+
+<form>
+    <div id = "account-info" class = "container">
+        <h2> <u> Account Information </u></h2>
+        <div>
+            <label2><b>Name: </b><span id="name" ></span></label2>
+            <p></p>
+            <label2><b>Username: </b><span id="user"></span></label2>
+            <p></p>
+            <label2><b>Email: </b><span id="email"></span></label2>
+            <p></p>
+            <label2><b>Email me for: </b><span id="email-prefs"></span></label2>
+        </div>
+        &nbsp;
+
+        <h2><u> Update Information </u></h2>
+        <div>
+            <label><b>Change Name: </b></label>
+            <input id="name-input" type="text" placeholder="First Last" name="name" required>
+            <p></p>
+            <label><b>Change Username: </b></label>
+            <input id="user-input" type="text" placeholder="username" name="user" required>
+            <p></p>
+            <label><b>Change Email: </b></label>
+            <input id="email-input" type="text" placeholder="example@blank.com" name="email" required>
+        </div>
+
+        <div class="col-md-6" >
+            <p class="small text-muted mb-2">
+                To create a new password, you must have a minimum  of 6 characters.
+                Cannot be the same as a previous password.</p>
+        </div>
+
+        <div class="form-group">
+            <label2 for="inputPassword4">Old Password: </label2>
+            <input type="password" class="form-control" id="pass-input" />
+        </div>
+
+        <div class="form-group">
+            <label2 for="inputPassword5">New Password: </label2>
+            <input type="password" class="form-control" id="new-pass-input" />
+        </div>
+
+        <div class="form-group">
+            <label2 for="inputPassword6">Confirm Password: </label2>
+            <input type="password" class="form-control" id="new-pass-input-2" />
+        </div>
+
+        <button id="update-acc" type="submit" class="btn-animate" onclick="updateAcc()">
+            <span> Submit </span>
+        </button>
+    </div>
+</form>
+
+&nbsp;
+
+<form>
+    <div class="container">
+        <h2><u>Update Email Preferences</u></h2>
+        <h4>Please select your email preferences.</h4>
+
+        <input type="radio" name="email-pref" id="option1" value="a" /> : Please send me emails about all
+        application updates. <br />
+        <input type="radio" name="email-pref" id="option2" value="b" /> : Please send me emails
+        about only action needed items.<br />
+        <input type="radio" name="email-pref" id="option3" value="c"/> : Please do not send me any emails.<br />
+
+        <button id="update-pref" style="position: relative; left: -15px;" type="submit" class="btn-animate"
+                onclick="emailAlert()">
+            <span> Submit </span>
+        </button>
+
+    </div>
+    &nbsp;
+</form>
+<script src="js/script.js"></script>
+</body>
+</html>
