@@ -10,22 +10,22 @@ purpose. WorkNow is a prototype of a website that demonstrates what an all-in-on
 
 Upon logging in, the landing page shows the user how many status updates they have for all of their applications. 
 
-![Alt text](examples/Screen Shot 2022-12-27 at 8.12.59 PM.png?raw=true "Welcome Page")
+!["Welcome Page"](examples/Screen Shot 2022-12-27 at 8.12.59 PM.png)
 
 All applications are easily viewed in one cohesive page, separated with "In Progress," "Submitted," and "Saved" sections. 
 
-![Alt text](examples/Screen Shot 2022-12-27 at 8.13.27 PM.png?raw=true "Welcome Page")
+!["Applications Page"](examples/Screen Shot 2022-12-27 at 8.13.27 PM.png)
 
 ## ⚙️ How Do I Use It?
 
 WorkNow demonstrates a UI of an idea our team was passionate about seeing realized, so for now you're still stuck using WorkDay. However, feel free to try 
-it out to get a feel for the website, and [open an issue] (https://github.com/isalyu/WorkNow/issues) if you see something that needs fixing or would like 
+it out to get a feel for the website, and [open an issue](https://github.com/isalyu/WorkNow/issues) if you see something that needs fixing or would like 
 to see different functionality added! 
 
 ## 📜 License
 
-This software is open source, licensed under the [MIT License} (https://github.com/isalyu/WorkNow/blob/master/LICENSE.md)
+This software is open source, licensed under the [MIT License](https://github.com/isalyu/WorkNow/blob/master/LICENSE.md)
 
-WorkNow is a project made in collaboration with my team consisting of [kavyas17] (https://github.com/kavyas17), [Hera Chung] (https://devpost.com/eehhchung1), 
-and [JennyZhu2] (https://github.com/JennyZhu2). This repository is a re-formatted version of the original WorkNow repository created for this project, which
-can be found [here] (https://github.com/kavyas17/WorkNow). 
+WorkNow is a project made in collaboration with my team consisting of [kavyas17](https://github.com/kavyas17), [Hera Chung](https://devpost.com/eehhchung1), 
+and [JennyZhu2](https://github.com/JennyZhu2). This repository is a re-formatted version of the original WorkNow repository created for this project, which
+can be found [here](https://github.com/kavyas17/WorkNow). 
