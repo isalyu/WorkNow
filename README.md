@@ -10,11 +10,11 @@ purpose. WorkNow is a prototype of a website that demonstrates what an all-in-on
 
 Upon logging in, the landing page shows the user how many status updates they have for all of their applications. 
 
-!["Welcome Page"](https://raw.github.com/isalyu/WorkNow/master/examples/Screen Shot 2022-12-27 at 8.12.59 PM.png)
+!["Welcome Page"](https://raw.github.com/isalyu/WorkNow/master/examples/landing.png)
 
 All applications are easily viewed in one cohesive page, separated with "In Progress," "Submitted," and "Saved" sections. 
 
-!["Applications Page"](https://raw.github.com/isalyu/WorkNow/master/examples/Screen Shot 2022-12-27 at 8.13.27 PM.png)
+!["Applications Page"](https://raw.github.com/isalyu/WorkNow/master/examples/applications.png)
 
 ## ⚙️ How Do I Use It?
 
